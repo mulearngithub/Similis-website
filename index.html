@@ -1,12 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website</title>
+        <!-- Google Fonts Cdn -->
+        <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome Cdn -->
+        <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap Cdn -->
+        <link
+        rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- Main Css -->
+        <link rel="stylesheet" href="css/Style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="navbar">
+                <img src="assets/logo.webp" alt="BUSINO" class="logo">
+                <nav>
+                    <ul id="menuList">
+                        <li>
+                            <a href="http://" id="home-nav">Home</a>
+                        </li>
+                        <li>
+                            <a href="http://">About</a>
+                        </li>
+                        <li>
+                            <a href="http://">Services
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://">Portfolio
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://">Blog
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://">Contact</a>
+                        </li>
+                    </ul>
+                    <i class="fa fa-bars hambuger" aria-hidden="true" onclick="togglemenu()"></i>
+                </nav>
+            </div>
+
+            <div class="row">
+                <div class="col-1">
+                    <h1>Together we<br>Explore your<br>Business</h1>
+                    <span></span>
+                    <button type="button">Get Started</button>
+                </div>
+                <div class="col-2">
+                    <img src="assets/slider-hero.webp" alt="slider-hero">
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="bar">
+                <ul>
+                    <li>
+                        <img src="assets/icon-1.webp" alt="img">
+                        <h4>Expert Team</h4>
+                        <h6>Talented People</h6>
+                    </li>
+                    <li>
+                        <img src="assets/icon-2.webp" alt="img">
+                        <h4>Business Plan</h4>
+                        <h6>Business Strategy</h6>
+                    </li>
+                    <li>
+                        <img src="assets/icon-3.webp" alt="img">
+                        <h4>Intime Service</h4>
+                        <h6>Tainted People</h6>
+                    </li>
+                    <li>
+                        <img src="assets/icon-4.webp" alt="img">
+                        <h4>Quick Support</h4>
+                        <h6>Tainted people</h6>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col1"><img src="assets/about.webp" alt="about"></div>
+                <div class="col2">
+                    <h4 class="abouth4">LEARN ABOUT USING<br></h4>
+                    <h1>Best & Creative<br>Agency for your<br>Company<br></h1>
+                    <h4>Most of the most porro quisAuam est qur dolorem are one ipsum
+                                                                                                quia dolor sit amet consectetur adipisci velit sed qua
+                    </h4>
+                    <h6>porro quisAuam est qur dolorem are one ipsum
+                                                                                                quia dolor sit amet consectetur adipisci velit sed qua
+                                                                                                porro quisAuam est qur dolorem are one ipsum
+                                                                                                quia dolor sit amet consectetur adipisci velit sed qua
+                                                                                                Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                                                                                                It has roots in a piece of classical Latin literature from 45 BC,
+                                                                                                making it over 2000 years old. Richard McClintock, a Latin professor
+                                                                                                at Hampden-Sydney College in Virginia, looked up one of the more obscure 
+                                                                                                Latin words, consectetur, from a Lorem Ipsum passage, and going through the 
+                                                                                                cites of the word.
+                    </h6>
+                    <button>Learn More</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="service">
+                <h4>Services we provide<br></h4>
+                <h1>Best Quality<br>Service for your<br>Company</h1>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <img src="assets/icon-5.webp" alt="img">
+                        <h4>Market Research</h4>
+                        <h6>Obtain pain of because is pain but because nally circumtances</h6>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img src="assets/icon-6.webp" alt="img">
+                        <h4>SEO Optimization</h4>
+                        <h6>Obtain pain of because you nall y circumstance</h6>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img src="assets/icon-7.webp" alt="img">
+                        <h4>Amazing Startegy</h4>
+                        <h6>Obtain pain of because you nall y circumstance</h6>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img src="assets/icon-8.webp" alt="img">
+                        <h4>PR & Marketing</h4>
+                        <h6>Obtain pain of because you nall y circumstance</h6>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Bootstrap Js Cdn -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+
+        <!-- Footer Start -->
+            <div class="container"> <div
+                class="section footer-section">
+
+                <!-- Footer Widget Section Start -->
+                <div class="footer-widget-section section-padding mt-n10">
+                    <div class="container">
+                        <div class="row">
+                            <div
+                                class="col-lg-4 col-md-8">
+
+                                <!-- Footer Widget Start -->
+                                <div class="footer-widget aos-init aos-animate">
+                                    <a href=""><img src="assets/logo.webp" alt="Logo"></a>
+                                    <p>Best is the most porro quisqudolor em are quis quam est, qui doquia dolor sit amcons</p>
+
+                                    <p class="widget-text">Subscribe our newsletter and get latest update about our offers, promotions</p>
+
+                                    <div class="widget-subscribe">
+                                        <form>
+                                            <input type="text" placeholder="Email">
+                                            <button class="b">Subscribe</button>
+                                        </form>
+                                    </div>
+
+                                    <div class="widget-social">
+                                        <a href="">
+                                            <i class="fa fa-facebook-f"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Footer Widget End -->
+
+                            </div>
+
+                            <div
+                                class="col-lg-5 col-md-7 changeli">
+
+                                <!-- Footer Widget Link Wrapper Start -->
+                                <div
+                                    class="footer-widget-link">
+
+                                    <!-- Footer Widget Start -->
+                                    <div class="footer-widget aos-init aos-animate">
+                                        <h5 class="footer-widget-title">Service</h5>
+
+                                        <ul class="footer-link">
+                                            <li>
+                                                <a href="">Market Research</a>
+                                            </li>
+                                            <li>
+                                                <a href="">SEO Optimization</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Amazing Strategy</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Financial Planning</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Project Analysis</a>
+                                            </li>
+                                            <li>
+                                                <a href="">PR &amp; Marketing</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- Footer Widget End -->
+
+                                    <!-- Footer Widget Start -->
+                                    <div class="footer-widget aos-init aos-animate">
+                                        <h5 class="footer-widget-title">Information</h5>
+
+                                        <ul class="footer-link">
+                                            <li>
+                                                <a href="">About us</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Portfolio</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Login/Register</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Terms &amp; Conditions</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Our Blog</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Promotions</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- Footer Widget End -->
+
+                                </div>
+                                <!-- Footer Widget Link Wrapper End -->
+
+                            </div>
+
+                            <div
+                                class="col-lg-3 col-md-7 col-sm-6">
+                                <!-- Footer Widget Start -->
+                                <div class="footer-widget aos-init aos-animate">
+                                    <h5 class="footer-widget-title">Service</h5>
+
+                                    <div class="widget-info">
+                                        <p>256 Central Park, East Town South valley, New York</p>
+                                    </div>
+                                    <div class="widget-info">
+                                        <p>+12345 687 856</p>
+                                        <p>+98745 612 325</p>
+                                    </div>
+                                    <div class="widget-info">
+                                        <p>info@example.com</p>
+                                        <p>www.example.com</p>
+                                    </div>
+                                </div>
+                                <!-- Footer Widget End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Widget Section End -->
+
+                <!-- Footer Copyright End -->
+                <div class="copyright">
+                    <div class="container">
+                        <div class="copyright-text">
+                            <p>© 2021
+                                <span>
+                                    BUSINO
+                                </span>
+                                Made with ❤️ by
+                                <span>HasThemes</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Copyright End -->
+
+            </div>
+        </div>
+        <!-- Footer End -->
+        <script src="js/script.js"></script>
+    </body>
 </html>
